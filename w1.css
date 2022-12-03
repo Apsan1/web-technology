@@ -1,0 +1,151 @@
+*{                              /* '*' represents the html as a whole*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+	height: 100vh; /*half states the container where everything is in the html*/ 
+}
+.navbar{          /*Navigation bar*/
+	position: fixed;
+	height: 70px;
+	width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	margin: 0 5px;
+	display: inline-block;
+	line-height: 70px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 5px 7px;
+	text-decoration: none;
+	transition: 1s;
+}
+.navbar ul li a:hover{
+	background: rgb(4, 167, 243);
+	border-radius: 3px;
+}
+.about-container{
+    height: 100vh;
+}
+.about-left{
+    background: #845EC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.about-left-content > div{
+    background: #FFFADE;
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+}
+.about-left h1{
+    margin-top: 60px;
+    font-size: 3rem;
+    text-transform: uppercase;
+     color: #FF6F91;
+}
+.about-left h1 span{
+   color: #FF9671;
+}
+.about-left h2{
+    color: #009EFA;
+    font-size: 1.5rem;
+}
+.about-left h2 span{
+    color: #24d229;
+    font-size: 1.2rem;
+}
+.me-img img{
+    display: block;
+    width: 200px;
+}
+.me-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.circle{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+}
+.about-right{
+    background: #F3C5FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: Top;
+    padding: 0 5rem;
+    text-align: Top;
+    
+}
+.about-right h1{
+    margin-top: 60px;
+    font-size: 3rem;
+    text-transform: uppercase;
+     color: #FF6F91;
+}
+.about-right h1 span{
+   color: #FF9671;
+}
+.about-right h2{
+    font-weight: 600;
+    color: #9f389f;
+    font-size: 1.4rem;
+}
+.about-right h2 span{
+    color: #C4FCEF;
+}
+.about-paragp p{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    opacity: 0.8;
+    color: #F34B6E;
+}
+.about-paragp p span{
+    color: #53B3AE;
+}
+.about-paragp h3{
+     font-size: .7cm;
+     color: #9C89B3;
+}
+.about-paragp h3 span{
+    font-size: 1cm;
+    color: #A4D9B5;
+}
+@media screen and (min-width: 992px){
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-left{
+        position: relative;
+    }
+    .about-left-content{
+        position: absolute;
+        right: -50px;
+    }
+}
