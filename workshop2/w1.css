@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-	height: 100vh; /*half states the container where everything is in the html*/ 
+	height: 90vh; /*half states the container where everything is in the html*/ 
 }
 .navbar{          /*Navigation bar*/
 	position: fixed;
@@ -39,7 +39,7 @@ body{
 	border-radius: 3px;
 }
 .about-container{
-    height: 100vh;
+    height: 95vh;
 }
 .about-left{
     background: #845EC2;
@@ -47,7 +47,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
 }
 .about-left-content > div{
     background: #FFFADE;
@@ -93,7 +93,7 @@ body{
 }
 .about-right{
     background: #F3C5FF;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,4 +148,33 @@ body{
         position: absolute;
         right: -50px;
     }
+}
+.fa {
+ padding: 0px;
+ font-size: 20px;
+ width: 100px;
+ text-align : center;
+ text-decoration: none;
+ margin: 5px 2px;
+ border-radius: 50%;
+}
+.fa-facebook{
+border-color: rgb(76, 76, 183);
+}
+.about-ftr {
+    height: 5vh;
+    background-color: #A4D9B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+.about-ftr p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    opacity: 0.8;
+    color: #b320cd;
 }
