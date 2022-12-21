@@ -42,7 +42,7 @@ body{
     height: 95vh;
 }
 .about-left{
-    background: #845EC2;
+    background-image: radial-gradient(circle, #a287d9, #a094e0, #9fa0e6, #a0acea, #a4b7ed, #9fbaee, #9bbded, #98c0ed, #86bdea, #73bae7, #5cb7e2, #41b4dc);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,7 @@ body{
     cursor: pointer;
 }
 .about-right{
-    background: #F3C5FF;
+    background-image: radial-gradient(circle, #a287d9, #a094e0, #9fa0e6, #a0acea, #a4b7ed, #9fbaee, #9bbded, #98c0ed, #86bdea, #73bae7, #5cb7e2, #41b4dc);
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -109,32 +109,32 @@ body{
      color: #FF6F91;
 }
 .about-right h1 span{
-   color: #FF9671;
+   color: #F1F1E6;
 }
 .about-right h2{
     font-weight: 600;
-    color: #9f389f;
+    color: #1c0a5f;
     font-size: 1.4rem;
 }
 .about-right h2 span{
-    color: #C4FCEF;
+    color: #073a2e;
 }
 .about-paragp p{
     font-size: 1.2rem;
     padding: 0.5rem;
     opacity: 0.8;
-    color: #F34B6E;
+    color: #002545;
 }
 .about-paragp p span{
-    color: #53B3AE;
+    color: #202c47;
 }
 .about-paragp h3{
      font-size: .7cm;
-     color: #9C89B3;
+     color: #bfd154;
 }
 .about-paragp h3 span{
     font-size: 1cm;
-    color: #A4D9B5;
+    color: #361d44;
 }
 @media screen and (min-width: 992px){
     .about-container{
